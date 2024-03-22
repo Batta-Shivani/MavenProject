@@ -61,6 +61,7 @@ public class Loginpage {
 	public void click_on_the_search_button() {
 	    // Write code here that turns the phrase above into concrete actions
 	   driver.findElement(By.id("Submit")).click();
+		System.out.println("Hotels page is open");
 	}
 
 	/*
